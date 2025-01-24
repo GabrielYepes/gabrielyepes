@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Theme colors */
+  --background-light: #EDF2F4;
+  --text-light: #171717;
+  --background-dark: #000000;
+  --text-dark: #FFFFFF;
+}
+
+/* Apply fonts using CSS variables */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.theme-light {
+  background-color: var(--background-light);
+  color: var(--text-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  transition: background-color 0.3s, color 0.3s;
+}

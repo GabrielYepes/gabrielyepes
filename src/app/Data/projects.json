@@ -1,0 +1,149 @@
+{
+    "projects": [
+      {
+        "title": "Album Covers",
+        "description": "Artwork for artists",
+        "imageUrl": "/Projects/albums.jpg",
+        "type": "gallery",
+        "fullDescription": "Exploring new aesthetics with local and upcoming artists, creating unique album covers that stand out. Whether it's a single or an album, let's make something really special.",
+        "images": [
+          "/Projects/albums/souvenir.png",
+          "/Projects/albums/canada.png",
+          "/Projects/albums/paradise 2.png",
+          "/Projects/albums/paradise 1.png",
+          "/Projects/albums/zzz.png",
+          "/Projects/albums/kedamos.png"
+        ],
+        "imageDescriptions": [
+          "souvenir - ne$teb, 044, maur0 (2023)",
+          "Canadá - Nittsuga (2024)",
+          "Vurakko's Paradise Deluxe - Vurakko (2025)",
+          "Vurakko's Paradise - Vurakko (2024)",
+          "muy ZZZ - ne$teb, OK Tatty (2023)",
+          "Kedamos Bien - Vurakko (2024)"
+        ]
+      },
+      {
+        "title": "Product Design",
+        "description": "From CAD to final product",
+        "imageUrl": "/Projects/product.jpg",
+        "type": "gallery",
+        "fullDescription": "Need to visualize your product before it's made? From the very first designing steps to prototyping the final product, I can help you bring your ideas to life.",
+        "images": [
+          "/Projects/product/abril 1.png",
+          "/Projects/product/abril 2.png",
+          "/Projects/product/abril 3.png",
+          "/Projects/product/abril 4.png",
+          "/Projects/product/clori 1.png",
+          "/Projects/product/clori 2.png",
+          "/Projects/product/clori 3.png",
+          "/Projects/product/clori 4.png",
+          "/Projects/product/arqui.png",
+          "/Projects/product/mono.png",
+          "/Projects/product/mono 2.png",
+          "/Projects/product/alba 1.png",
+          "/Projects/product/alba 2.png",
+          "/Projects/product/alba 3.png",
+          "/Projects/product/musa 1.png",
+          "/Projects/product/musa 2.png",
+          "/Projects/product/musa 3.png"
+        ],
+        "imageDescriptions": [
+            "Product rendering for independent client",
+            "Product rendering for independent client",
+            "Product rendering for independent client",
+            "Product rendering for independent client",
+            "Package rendering for Asequimicos, one of many, label design not mine",
+            "Package rendering for Asequimicos, one of many, label design not mine",
+            "Package rendering for Asequimicos, one of many, label design not mine",
+            "Package rendering for Asequimicos, one of many, label design not mine",
+            "Architectural rendering and explosion for a class project",
+            "Monkey lamp and keychain design for a class project",
+            "Monkey keychain design for a class project",
+            "Experimental headwear design for a class project",
+            "Experimental headwear and accessories design for a class project, model Laura Ramirez",
+            "Experimental headwear and accessories design for a class project, model Laura Ramirez",
+            "Product rendering for Musa, label design not mine",
+            "Product rendering for Musa, label design not mine",
+            "Product rendering for Musa, label design not mine"
+          ]
+      },
+      {
+        "title": "Interactive Code",
+        "description": "Installations and games",
+        "imageUrl": "/Projects/interactive.jpg",
+        "type": "video",
+        "mainVideoUrl": "https://player.vimeo.com/video/your_main_reel_id",
+        "fullDescription": "Uniting art and technology, immerse yourself in a digital dream. From interactive installations to video games, I can help you create a unique experience for your audience.",
+        "images": [
+          "/Projects/albums/image1.jpg",
+          "/Projects/albums/image2.jpg",
+          "/Projects/albums/image3.jpg"
+        ],
+        "imageVideos": [
+          "https://vimeo.com/1035946244",
+          "https://player.vimeo.com/video/particle_system_id"
+        ]
+      },
+      {
+        "title": "Animations and 3D",
+        "description": "Creating worlds",
+        "imageUrl": "/Projects/3d.jpg",
+        "type": "video",
+        "mainVideoUrl": "https://vimeo.com/1050154014",
+        "fullDescription": "From 3D modeling to rendering to animation, realistic or stylized. With a strong background in Blender, I can provide visuals that will attract your audience.",
+        "images": [
+          "/Projects/3d/nube.jpg",
+          "/Projects/3d/sad.png",
+          "/Projects/3d/lotto.png",
+          "/Projects/3d/racio.png",
+          "/Projects/3d/poli.png",
+          "/Projects/3d/aura.png",
+          "/Projects/3d/lqeyne.png",
+          "/Projects/3d/burbus.png",
+          "/Projects/3d/bolsita.jpg",
+          "/Projects/3d/maca y gero.png",
+          "/Projects/3d/fede.png",
+          "/Projects/3d/alba.png"
+        ],
+        "imageDescriptions": [
+            "Animation based on 'Los Sueños de Nube' by Rojuu, for a class, not for commercial use",
+            "Quick animation experiment",
+            "Stylized character design and animation, inspired by PS1 graphics",
+            "Animation about brains fighting each other, for a class, not for commercial use",
+            "Stylized character design and animation, inspired by PS1 graphics",
+            "Visualizer for Mestre, a local music artist",
+            "Animated introduction to 'Lo que Extrañas ya no Existe', a class project",
+            "Experimental Blender animation",
+            "Stylized character design and animation, inspired by claymation",
+            "Visualizer for Maca y Gero, a local music band",
+            "Promotional character rendering for Vurakko",
+            "'Alba' logo for a class project"
+        ],
+        "imageVideos": [
+          "https://vimeo.com/1035946244",
+          "https://vimeo.com/931931653",
+          "https://vimeo.com/1049878025",
+          "https://vimeo.com/1049878850",
+          "https://vimeo.com/931927889",
+          "https://vimeo.com/1049880505",
+          "https://vimeo.com/1049883126",
+          "https://vimeo.com/1049884601",
+          "https://vimeo.com/1049893624",
+          "https://vimeo.com/1049894596"
+        ]
+      },
+      {
+        "title": "Jewerly Design",
+        "description": "CAD assisted design, ready for 3D printing",
+        "imageUrl": "/Projects/3d.jpg",
+        "type": "gallery",
+        "fullDescription": "Jewelry design is a delicate process that requires precision and attention to detail. I can help you create the perfect piece for your collection. The rings below were designed for Solan, an upcoming local jewelry brand.",
+        "images": [
+          "/Projects/albums/image1.jpg",
+          "/Projects/albums/image2.jpg",
+          "/Projects/albums/image3.jpg"
+        ]
+      }
+    ]
+  }
