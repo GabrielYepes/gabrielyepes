@@ -17,7 +17,7 @@ export default function ProfileImage({ onClick }) {
                      hover:scale-110 transition-transform duration-300"
         >
             <Image
-                src="/assets/profile.jpeg"
+                src="/profile.jpeg"
                 alt="Gabriel Yepes"
                 fill
                 className="object-cover rounded-full"

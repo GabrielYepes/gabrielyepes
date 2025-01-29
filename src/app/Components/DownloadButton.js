@@ -7,7 +7,7 @@ export default function DownloadButton() {
   // In light theme, we want a subtle shadow effect
   return (
     <a
-      href="/assets/CV_GabrielYepes.pdf"
+      href="/CV_GabrielYepes.pdf"
       download
       className="group fixed bottom-4 right-4 flex items-center gap-2 px-4 py-2 
                  rounded-full backdrop-blur-sm border border-opacity-20

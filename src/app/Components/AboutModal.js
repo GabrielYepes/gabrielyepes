@@ -38,12 +38,12 @@ export default function AboutModal({ isOpen, onClose }) {
                     {/* Profile Image */}
                     <div className="relative w-full h-64 mb-6">
                         <Image
-                            src="/assets/profile.jpeg"
+                            src="/profile.jpeg"
                             alt="Gabriel Yepes"
                             fill
                             className="object-cover rounded-t-2xl"
                             sizes="(max-width: 1024px) 100vw, 42rem"
-                            quality={95}
+                            quality={100}
                             priority
                         />
                     </div>
