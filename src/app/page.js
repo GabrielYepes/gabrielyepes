@@ -26,9 +26,6 @@ export default function Home() {
                 {theme === 'light' ? <Moon className="w-6 h-6" /> : <Sun className="w-6 h-6" />}
             </button>
             
-            {/* Download CV button */}
-            <DownloadButton />
-            
             <main className="flex flex-col items-center justify-center min-h-screen px-4">
                 {/* Header section */}
                 <div className="text-center max-w-3xl w-full mb-16">
