@@ -96,38 +96,40 @@ export default function ProjectPage() {
           </div>
         )}
 
-        {/* Individual projects grid */}
-        <div className="mt-12">
-          <h2 className="text-2xl font-bold mb-4 pl-4 md:pl-6 lg:pl-8">Individual Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {project.images?.map((image, index) => (
-              <div 
-                key={index} 
-                className="aspect-square relative rounded-xl overflow-hidden cursor-pointer
-                           transform transition-transform duration-200 hover:scale-[1.02]"
-                onClick={() => handleGridItemClick(index)}
-              >
-                <Image
-                  src={image}
-                  alt={project.imageDescriptions?.[index] || `${project.title} image ${index + 1}`}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-                {/* Show play button if this item has a video */}
-                {project.imageVideos?.[index] && (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 rounded-full bg-black bg-opacity-50 
-                                  flex items-center justify-center hover:bg-opacity-70
-                                  transition-all duration-300">
-                      <Play className="w-8 h-8 text-white" />
+        {/* Individual projects grid - only show if there are images */}
+        {project.images && project.images.length > 0 && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold mb-4 pl-4 md:pl-6 lg:pl-8">Gallery</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {project.images.map((image, index) => (
+                <div 
+                  key={index} 
+                  className="aspect-square relative rounded-xl overflow-hidden cursor-pointer
+                             transform transition-transform duration-200 hover:scale-[1.02]"
+                  onClick={() => handleGridItemClick(index)}
+                >
+                  <Image
+                    src={image}
+                    alt={project.imageDescriptions?.[index] || `${project.title} image ${index + 1}`}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                  {/* Show play button if this item has a video */}
+                  {project.imageVideos?.[index] && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-16 h-16 rounded-full bg-black bg-opacity-50 
+                                    flex items-center justify-center hover:bg-opacity-70
+                                    transition-all duration-300">
+                        <Play className="w-8 h-8 text-white" />
+                      </div>
                     </div>
-                  </div>
-                )}
-              </div>
-            ))}
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Modals */}
         <VideoModal
@@ -139,11 +141,11 @@ export default function ProjectPage() {
         <ImageModal
           isOpen={isImageModalOpen}
           onClose={() => setIsImageModalOpen(false)}
-          imageUrl={project.images[currentImageIndex]}
+          imageUrl={project.images?.[currentImageIndex]}
           imageText={project.imageDescriptions?.[currentImageIndex]}
           onNext={() => setCurrentImageIndex(prev => prev + 1)}
           onPrevious={() => setCurrentImageIndex(prev => prev - 1)}
-          hasNext={currentImageIndex < project.images.length - 1}
+          hasNext={project.images && currentImageIndex < project.images.length - 1}
           hasPrevious={currentImageIndex > 0}
         />
       </main>

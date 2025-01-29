@@ -73,16 +73,12 @@
         "description": "Installations and games",
         "imageUrl": "/Projects/interactive.jpg",
         "type": "video",
-        "mainVideoUrl": "https://player.vimeo.com/video/your_main_reel_id",
+        "mainVideoUrl": "https://vimeo.com/1051433478",
         "fullDescription": "Uniting art and technology, immerse yourself in a digital dream. From interactive installations to video games, I can help you create a unique experience for your audience.",
         "images": [
-          "/Projects/albums/image1.jpg",
-          "/Projects/albums/image2.jpg",
-          "/Projects/albums/image3.jpg"
+          
         ],
         "imageVideos": [
-          "https://vimeo.com/1035946244",
-          "https://player.vimeo.com/video/particle_system_id"
         ]
       },
       {
@@ -136,13 +132,24 @@
       {
         "title": "Jewerly Design",
         "description": "CAD assisted design, ready for 3D printing",
-        "imageUrl": "/Projects/3d.jpg",
+        "imageUrl": "/Projects/jewelry.jpeg",
         "type": "gallery",
-        "fullDescription": "Jewelry design is a delicate process that requires precision and attention to detail. I can help you create the perfect piece for your collection. The rings below were designed for Solan, an upcoming local jewelry brand.",
+        "fullDescription": "CAD jewelry design is a delicate process that requires precision and attention to detail. I can help you create the perfect piece for your collection. The rings below were designed by Solan, an upcoming local jewelry brand. My task was to convert their sketches into printable 3D models.",
         "images": [
-          "/Projects/albums/image1.jpg",
-          "/Projects/albums/image2.jpg",
-          "/Projects/albums/image3.jpg"
+          "/Projects/jewelry/pensamiento.jpeg",
+          "/Projects/jewelry/gladiolo1.jpeg",
+          "/Projects/jewelry/gladiolo2.jpeg",
+          "/Projects/jewelry/gladiolo3.jpeg",
+          "/Projects/jewelry/clavel.jpeg",
+          "/Projects/jewelry/hibisco.jpeg"
+        ],
+      "imageDescriptions": [
+            "Gold and silver ring design for Solan. Inspired by pansies",
+            "Colored gold ring design for Solan. Inspired by gladiolus (1/3)",
+            "Colored gold ring design for Solan. Inspired by gladiolus (2/3)",
+            "Colored gold ring design for Solan. Inspired by gladiolus (3/3)",
+            "Rose gold ring design for Solan. Inspired by carnations",
+            "Gold ring design for Solan. Inspired by hibiscus"
         ]
       }
     ]
